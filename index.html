@@ -28,6 +28,10 @@
         }
     </script>
     <style>
+      .bg
+      {
+        background: #FFF;
+      }
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
@@ -35,7 +39,7 @@
 </head>
 
 <body class="font-manrope">
- <header class="container mx-auto">
+  <header class="container mx-auto">
     <div class="hero ">
         <div class="hero-content flex-col lg:flex-row">
           
@@ -46,7 +50,7 @@
             <button class="btn btn-primary bg-orange-500">Explore More</button>
           </div>
         <div>
-            <img src="./images/banner.png" class="max-w-sm" />
+            <img src="/images/banner.png" class="max-w-sm" />
             <div class=" -mt-24 flex items-center drop-shadow-lg bg-white p-4 w-56">
                 <i class="fa-solid fa-star text-3xl text-amber-400"></i>
                 <div >
@@ -62,89 +66,95 @@
         </div>
       </div>
  </header>
- <main class="container mx-auto">
-<section class="text-center my-6 ">
-    <h2 class="text-5xl mb-5">
-        Our Featured Products
-
-    </h2>
-    <p class="lg:max-w-3xl mx-auto"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-
-     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-        <div class="card w-96 p-6 linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%) shadow-xl">
-            <figure><img src="./images/tea-1.png" alt="Shoes" /></figure>
-            <div class="card-body items-center">
-              <h2 class="text-2xl">Milk Tea</h2>
-              <p>Creamer could be replaced by fresh milk</p>
-              <div class="card-actions justify-end">
-                
-              </div>
-            </div>
+ <main>
+ <section class="container mx-auto">
+     <div class="text-center my-24 ">
+      <h2 class="text-4xl font-bold">Our Featured Products</h2>
+      <p class="lg:max-w-3xl mx-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni minima ea laboriosam quaerat quis unde iste recusandae aperiam? Optio voluptatem tenetur totam cumque quia quos quam ea! Officiis, aperiam cumque.</p>
+      <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <div class="card p-8 bg-base-100 shadow-xl border-[10px]">
+        <figure><img src="images/tea-1.png" alt="Shoes" /></figure>
+        <div class="card-body justify-center">
+          <h2 class="text-2xl font-semibold text-center ">milk Tea</h2>
+          <p>Creamer could be replaced by fresh milk</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
           </div>
-        <div class="card w-96 p-6 linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%) shadow-xl">
-            <figure><img src="./images/tea-2.png" alt="Shoes" /></figure>
-            <div class="card-body items-center">
-              <h2 class="text-2xl">Milk Tea</h2>
-              <p>Creamer could be replaced by fresh milk</p>
-              <div class="card-actions justify-end">
-                
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="card  p-8 bg-base-100 shadow-xl border-[10px]">
+        <figure><img src="images/tea-2.png" alt="Shoes" /></figure>
+        <div class="card-body justify-center">
+          <h2 class="text-2xl font-semibold text-center ">milk Tea</h2>
+          <p>Creamer could be replaced by fresh milk</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
           </div>
-        <div class="card w-96 p-6 linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%) shadow-xl">
-            <figure><img src="./images/tea-3.png" alt="Shoes" /></figure>
-            <div class="card-body items-center">
-              <h2 class="text-2xl">Milk Tea</h2>
-              <p>Creamer could be replaced by fresh milk</p>
-              <div class="card-actions justify-end">
-                
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="card p-8 bg-base-100 shadow-xl border-[10px]">
+        <figure><img src="images/tea-3.png" alt="Shoes" /></figure>
+        <div class="card-body justify-center">
+          <h2 class="text-2xl font-semibold text-center ">milk Tea</h2>
+          <p>Creamer could be replaced by fresh milk</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
           </div>
-        <div class="card w-96 p-6 linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%) shadow-xl">
-            <figure><img src="./images/tea-4.png" alt="Shoes" /></figure>
-            <div class="card-body items-center">
-              <h2 class="text-2xl">Milk Tea</h2>
-              <p>Creamer could be replaced by fresh milk</p>
-              <div class="card-actions justify-end">
-                
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="card p-8 bg-base-100 shadow-xl border-[10px]">
+        <figure><img src="images/tea-4.png" alt="Shoes" /></figure>
+        <div class="card-body justify-center">
+          <h2 class="text-2xl font-semibold text-center ">milk Tea</h2>
+          <p>Creamer could be replaced by fresh milk</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
           </div>
+        </div>
+      </div>
+    </div>
+     </section>
+     <section class="my-24 flex flex-col lg:flex-row">
+     
+        <div class="grid gap-8 grid-cols-1 md:grid-cols-2 flex-1">
+          <div class="rounded-xl h-24 bg-gradient-to-r from-rose-400 to-rose-500"></div>">
+          <div class="raw-span-2 bg-gradient-to-r from-slate-500 to-slate-300 rounded-lg  w-3/4 flex justify-center items-center">
+            <img src="images/fresh-1.png" alt="">
+          </div>
+         
+          <div class="raw-span-2 bg-gradient-to-r from-rose-400 to-rose-500 rounded-lg  w-3/4 flex justify-center items-center"></div">
+            <img class="ml-12" src="images/fresh-2.png" alt="">
+          </div >
+          <div class="rounded-xl h-20 bg-gradient-to-r from-slate-500 to-slate-300  "></div>
+        
      </div>
-</section>
-<section class="my-24 flex flex-col lg:flex-row">
-    <div class="grid gap-6 grid-cols-1 md:grid-cols-2 flex-1">
-    <div></div>
-    <div class="row-span-2"> <img src="./images/fresh-1.png" alt=""> </div>
-    <div class="row-span-2"><img src="./images/fresh-2.png" alt=""></div>
-    <div></div>
-    </div>
-    <div class="space-y-5 flex-1">
-      <h3 class="text-5xl font-extrabold "> Great Tea, Freshly Presented</h3>
-      <p> The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan. </p>
-      <h4 class="text-xl font-extrabold">Unique Taste</h4>
-      <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
-      <h4 class="text-xl font-extrabold">Premium Quality</h4>
-       <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>    
-    </div>
-</section>
-<section class="my-24 flex flex-col lg:flex-row gap-11 rounded-xl px-10 py-24 bg-orange-600" >
-<div class="space-y-6">
-    <h2 class="text-5xl font-extrabold text-white">Meet Our Super Clients</h2>
-    <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-<button class="btn btn-primary bg-white text-orange-500">Show all</button>
-</div>
-<div>
-    
-    <div class="relative p-10 rounded-lg bg-white">
-        <img class="absolute -top-5 -left-10" src="./images/client.png" alt="">
-        <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-        <h4 class="text-xl font-extrabold">Ilham Yud</h4>
-        <p>Business</p>
-    </div>
-</div>
-</section>
+        <div class="space-y-5 flex-1">
+          <h3 class="text-5xl font-extrabold "> Great Tea, Freshly Presented</h3>
+          <p> The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan. </p>
+          <h4 class="text-xl font-extrabold">Unique Taste</h4>
+          <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+          <h4 class="text-xl font-extrabold">Premium Quality</h4>
+           <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>    
+        </div>
+      
+     </section>
+     <section class="my-24 flex flex-col lg:flex-row gap-9   p-24 bg-orange-600" >
+      <div class="space-y-9">
+          <h2 class="text-5xl font-extrabold text-white">Meet Our Super Clients</h2>
+          <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+      <button class="btn btn-primary bg-white text-orange-500">Show all</button>
+      </div>
+      <div>
+          
+          <div class="relative p-10 rounded-lg bg-white">
+              <img class="absolute -top-5 -left-10" src="/images/client.png" alt="">
+              <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+              <h4 class="text-xl font-extrabold">Ilham Yud</h4>
+              <p>Business</p>
+          </div>
+      </div>
+      </section>
+
  </main>
  <footer class="footer p-10 bg-base-200 text-base-content">
     <nav>
